@@ -9,4 +9,4 @@
 
 
    - name: start nodejs app
-     command: forever start SonarQubeNodeJS/app/server.js
+     command: forever start SonarQubeNodeJS/app/views/index.html
