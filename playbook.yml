@@ -7,8 +7,6 @@
    - name: installing npm
      command: npm install
 
-     args:
-       chdir: ~/SonarQubeNodeJS
 
    - name: start nodejs app
-     command: forever start /root/SonarQubeNodeJS/app/server.js
+     command: forever start SonarQubeNodeJS/app/server.js
